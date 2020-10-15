@@ -1,0 +1,44 @@
+{
+  "CheckURL": "https://www.modify.com/",
+  "note_CheckURL": "用于检测v2ray有效的一个网址",
+
+
+  "PORJECTNUMBER": "P2FA",
+  "note_PORJECTNUMBER": "项目编号",
+
+
+  "TARGET_SUBLIST": {
+    "S001": {"aURL": "https://zsy.zuisucloud.online/link/MBaZdfFkHp9rk9k4?sub=3", "aRemark": "20201014-域名有效-账号已经过期 zuisuyun.com 永久域名"},
+    "S002": {"aURL": "https://www.recear.xyz/link/APN3G0Xk7PDVOKk6?sub=3", "aRemark": "20201014-此地址无任何数据"},
+    "S003": {"aURL": "https://youyun666.site/link/zisAjhiweL9MZy7C?sub=3", "aRemark": "20201014-域名有效-账号已经过期"},
+    "S004": {"aURL": "https://zsy.zuisucloud.online/link/eOFlmtL1TOuFvJge?sub=3", "aRemark": "20201014-此地址无任何数据"},
+    "S005": {"aURL": "https://youyun666.site/link/cqDEwEmxTHorCQN4?sub=3", "aRemark": "20201014-域名有效-账号已经过期"},
+    "S006": {"aURL": "https://youyun666.site/link/f0xeIgQqTVgzQC5x?sub=3", "aRemark": "20201014-域名有效-账号已经过期"},
+    "S007": {"aURL": "https://rss.cnrss.xyz/link/hPpCo7KK7ZxYFGlY?mu=2", "aRemark": "20201014-域名有效-账号已经过期"},
+    "S008": {"aURL": "http://proxypool.turinglabs.net/upload/daily/v2ray20201014", "aRemark": "Active 20201014-有效 有数据 关联网址 来源 https://merlinblog.xyz/wiki/freess.html"},
+    "S009": {"aURL": "https://raw.githubusercontent.com/satrom/V2SSR/master/V2RAY/Sub.txt", "aRemark": "Active 20201014-有效 有数据 关联网址 来源 https://github.com/satrom/V2SSR"},    
+    "S010": {"aURL": "https://jiang.netlify.com/", "aRemark": "Active 20201014-有效 有数据"},
+    "S011": {"aURL": "https://iwxf.netlify.app/", "aRemark": "Active 20201014-有效 有数据"},
+    "S012": {"aURL": "https://youlianboshi.netlify.com/", "aRemark": "20201014-无任何数据"},
+    "S013": {"aURL": "https://raw.githubusercontent.com/ntkernel/lantern/master/vmess_base64.txt", "aRemark": "Active 20201014-有效 有数据 数据跟V001一致"},    
+    "S014": {"aURL": "https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray", "aRemark": "Active 20201015-有效 有数据 采集到27个记录数据"},
+    "S015": {"aURL": "https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub", "aRemark": "Active 20201015-有效 有数据 但是用的shadowrocket 分享格式 没必要浪费时间 丢弃"},
+    "S016": {"aURL": "https://youlianboshi.netlify.app/", "aRemark": "Active 20201015-有效 有数据 采集到5个记录数据"},
+    "S017": {"aURL": "https://www.tiancai.ml/baba.txt", "aRemark": "Active 20201015-有效 有数据 采集到97个记录数据"}
+  },
+  "note_TARGET_SUBLIST": "V2ray订阅地址的链接 字典",
+
+
+  "TARGET_VMESSPAGE": {
+    "V001": {"aURL": "https://github.com/ntkernel/lantern/blob/master/vmess.txt", "aRemark": "Active 20201014-有效 有数据"}
+  },
+  "note_TARGET_VMESSPAGE": "包含vmess数据的网页 字典",
+
+
+  "TARGET_SPECIAL": {
+    "X001": {"aURL": "https://www.baidu.com/", "aRemark": "必要的备注信息"},
+    "X002": {"aURL": "https://www.google.com/", "aRemark": "必要的备注信息"}
+  },
+  "note_TARGET_SPECIAL": "包含vmess数据的网页 字典"
+}
+
