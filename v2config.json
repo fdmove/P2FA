@@ -1,11 +1,15 @@
 {
-  "CheckURL": "https://www.modify.com/",
-  "note_CheckURL": "用于检测v2ray有效的一个网址",
-
-
   "PORJECTNUMBER": "P2FA",
   "note_PORJECTNUMBER": "项目编号",
 
+  "WorkDirectory": "/home/fd/project/P2FA",
+  "note_WorkDirectory": "程序的工作目录",
+
+  "CheckURL": "https://www.none.com/",
+  "note_CheckURL": "用于检测v2ray有效的一个网址",
+
+  "ProxyIPPort": "socks5://127.0.0.1:10808",
+  "note_ProxyIP_ProxyPort": "部分需要采集的网址被墙 需要通过代理才能访问 类型socks5",
 
   "TARGET_SUBLIST": {
     "S001": {"aURL": "https://zsy.zuisucloud.online/link/MBaZdfFkHp9rk9k4?sub=3", "aRemark": "20201014-域名有效-账号已经过期 zuisuyun.com 永久域名"},
@@ -18,25 +22,37 @@
     "S008": {"aURL": "http://proxypool.turinglabs.net/upload/daily/v2ray20201014", "aRemark": "Active 20201014-有效 有数据 关联网址 来源 https://merlinblog.xyz/wiki/freess.html"},
     "S009": {"aURL": "https://raw.githubusercontent.com/satrom/V2SSR/master/V2RAY/Sub.txt", "aRemark": "Active 20201014-有效 有数据 关联网址 来源 https://github.com/satrom/V2SSR"},    
     "S010": {"aURL": "https://jiang.netlify.com/", "aRemark": "Active 20201014-有效 有数据"},
-    "S011": {"aURL": "https://iwxf.netlify.app/", "aRemark": "Active 20201014-有效 有数据"},
+    "S011": {"aURL": "https://iwxf.netlify.app/", "aRemark": "Active 20201014-有效 有数据 来源https://github.com/iwxf/free-v2ray/blob/master/README.md 看上去 长期更新的"},
     "S012": {"aURL": "https://youlianboshi.netlify.com/", "aRemark": "20201014-无任何数据"},
     "S013": {"aURL": "https://raw.githubusercontent.com/ntkernel/lantern/master/vmess_base64.txt", "aRemark": "Active 20201014-有效 有数据 数据跟V001一致"},    
     "S014": {"aURL": "https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray", "aRemark": "Active 20201015-有效 有数据 采集到27个记录数据"},
     "S015": {"aURL": "https://raw.githubusercontent.com/eycorsican/rule-sets/master/kitsunebi_sub", "aRemark": "Active 20201015-有效 有数据 但是用的shadowrocket 分享格式 没必要浪费时间 丢弃"},
     "S016": {"aURL": "https://youlianboshi.netlify.app/", "aRemark": "Active 20201015-有效 有数据 采集到5个记录数据"},
-    "S017": {"aURL": "https://www.tiancai.ml/baba.txt", "aRemark": "Active 20201015-有效 有数据 采集到97个记录数据"}
+    "S017": {"aURL": "https://www.tiancai.ml/baba.txt", "aRemark": "Active 20201015-有效 有数据 采集到97个记录数据"},
+    "S018": {"aURL": "https://caicai.herokuapp.com/vmess/sub", "aRemark": "Active 20201019-有效 有数据 采集到1374个记录数据"}
   },
   "note_TARGET_SUBLIST": "V2ray订阅地址的链接 字典",
 
 
   "TARGET_VMESSPAGE": {
-    "V001": {"aURL": "https://github.com/ntkernel/lantern/blob/master/vmess.txt", "aRemark": "Active 20201014-有效 有数据"}
+    "V001": {"aURL": "https://github.com/ntkernel/lantern/blob/master/vmess.txt", "aRemark": "Active 20201014-有效 有数据"},
+    "V002": {"aURL": "https://www.none.com/freev2ray.html", "aRemark": "必要的备注信息"},
+    "V003": {"aURL": "https://www.4spaces.org/free/", "aRemark": "网站名称 四个空格 页面上有5个线路 很久不更新"},
+    "V004": {"aURL": "https://t.me/s/dangzhibu", "aRemark": "TG群组 万人群组 翻墙党V2Ray支部 无有效信息"},
+    "V005": {"aURL": "https://www.go2free.xyz/category/free/v2ray/page/1/", "aRemark": "线路的信息 错误百出 不采集"},
+    "V006": {"aURL": "https://www.none.com/v.txt", "aRemark": "X001 对应的比较新的网页 生成的临时网页 单次采集就足够了"},
+    "V007": {"aURL": "https://t.me/s/GYJCLUB", "aRemark": "TG群组 万人群组 无有效信息"},
+    "V008": {"aURL": "https://t.me/s/v2list", "aRemark": "TG群组 万人群组 无有效信息"},
+    "V009": {"aURL": "https://t.me/s/cnhumanright99/1257", "aRemark": "TG群组 万人群组 内容都封装在TXT 或者WORD文档里 采集不便"},
+    "V010": {"aURL": "https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7", "aRemark": "长期更新的3个节点"},
+    "V011": {"aURL": "https://www.freess.best/v2ray.html", "aRemark": "长期更新的3个节点"},
+    "V012": {"aURL": "https://www.freevpnnet.com/", "aRemark": "长期更新的3个节点"}
   },
   "note_TARGET_VMESSPAGE": "包含vmess数据的网页 字典",
 
 
   "TARGET_SPECIAL": {
-    "X001": {"aURL": "https://www.baidu.com/", "aRemark": "必要的备注信息"},
+    "X001": {"aURL": "https://www.freefq.com/v2ray/", "aRemark": "需要对其子网页进行内容提取的采集 线路比较多 也都是网络的 非原创"},
     "X002": {"aURL": "https://www.google.com/", "aRemark": "必要的备注信息"}
   },
   "note_TARGET_SPECIAL": "包含vmess数据的网页 字典"
